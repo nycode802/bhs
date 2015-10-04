@@ -1,0 +1,292 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+.header{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    padding: 0px;
+    position: fixed;
+
+    font-family: 'Handlee', cursive;
+    text-align: center;
+
+    color: white;
+    padding: 5px;
+}
+.header td{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+.mainbody{
+    margin: 0px;
+    padding: 0px;
+    background-color: floralwhite;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 1em;
+}
+.post_container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    box-shadow: 2px 2px 2px #888888;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.post_container:hover{
+
+}
+.post{
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.this_thing{
+    background-color: red;
+    width: 500px;
+    color: white;
+    font-size: 100em;
+    box-shadow: 2px 2px 2px red;
+}
+.post :hover{
+    backgroud-color: rgba( 240,255,255, 1);
+}
+.post_container .title{
+    text-align: center;
+    padding-top: 10px;
+}
+.login{
+    text-align: center;
+}
+.login input[type=text],input[type=email],input[type=password]
+{
+    border-radius: 10px;
+    padding: 10px;
+}
+.login input[type=submit]
+{
+    border-radius: 1px;
+    border: 0px;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    width: 15%;
+}
+.login input[type=submit]:hover{
+    text-decoration: underline;
+}
+.create_post{
+    text-align:  center;
+    width: 100%;
+}
+.create_post input[type=text]
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 1px 1px 1px #888888;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+}
+.dyn_page p{
+    font-size: large;
+}
+.create_post textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 1px 1px 1px #888888;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+}
+.create_post input[type=submit]
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: .5px .5px .5px #888888;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    height: 5%;
+}
+.create_post input[type=submit]:hover{
+    text-decoration: underline;
+}
+.post_comment textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 1px 1px 1px #888888;
+    font-family: 'Nunito', sans-serif;
+
+}
+.post_comment input[type=submit]{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: .5px .5px .5px #888888;
+    font-family: 'Nunito', sans-serif;
+    height: 5%;
+}
+.post_comment input[type=submit]:hover{
+    text-decoration: underline;
+}
+.settings input[type=submit]
+{
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: .5px .5px .5px #888888;
+    font-family: 'Nunito', sans-serif;
+}
+.settings input[type=submit]:hover{
+    text-decoration: underline;
+}
+.settings textarea
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 1px 1px 1px #888888;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+}
+input, textarea, select, option{
+    width: 75%;
+    border-radius: 25px;
+    font-size: 1.2em;
+    border: 1px black;
+    padding: 3px;
+}
+
+input[type=text], textarea, input[type=password], input[type=email]
+{
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+input[type=submit]
+{
+    color: white;
+    font-size: 1.2em;
+    border: 0px;
+    padding: 3px;
+}
+
+.error{
+    background-color: rgba(255,0,0,.3);
+    text-align: center;
+}
+.report{
+    border-radius: 5px;
+    background-color: burlywood;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+.report:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+.profile_picture{
+    border-radius: 40px;
+}
+a:visited{
+    color: black;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+.header a:visited{
+    color: white;
+
+}
+.header a:link {
+    color: white;
+
+}
+.header a:hover {
+    text-decoration: underline;
+    color: white;
+
+}
+.header a:active {
+    text-decoration: none;
+    color: white;
+
+}
+.home{
+    margin: 0px;
+}
+.home .bg{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/home-background.png");
+    background-size: cover;
+    margin: 0px;
+}
+.buis{
+    margin: 0px;
+    padding: 0px;
+    background: url("images/buis.jpg");
+    width: 100%;
+    height: 100%;
+    position: static;
+    display: block;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.unblur{
+}
+.stuck {
+    position:fixed;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buisbody{
+    margin: 0;
+    padding: 0px;
+    background: url("images/buis.jpg");
+    width: 100%;
+    height: 100%;
+    position: static;
+    display: block;
+    top: 0;
+    bottom: 0;
+}
+.user_post:hover{
+    background-color: #316ac5;
+}
+.user_comment:hover{
+    background-color: peachpuff;
+}
